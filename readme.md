@@ -10,8 +10,8 @@ Dynatalk 致力于对象之间的交流, 尤其关心不同语言/环境之间�
 Dynatalk 支持多种编程语言
 
 - [dynatalk-js](https://github.com/wwj718/dynatalk-js)
-- dynatalk-squeak
-- dynatalk-py
+- [dynatalk-squeak](https://github.com/wwj718/dynatalk-squeak)
+- [dynatalk-py](https://github.com/wwj718/dynatalk-py)
 - Snap!
 - MicroBlocks
 
@@ -20,6 +20,8 @@ Dynatalk 支持多种编程语言
 <!--"软件只是心智成熟的副产品", 思考本身是更重要的, 记录它们-->
 
 和 [SqueakJS](https://github.com/codefrau/SqueakJS)类似, 最初的 Dynatalk 以探索性编程的风格在 [LivelyKernel](https://github.com/LivelyKernel/LivelyKernel) 中开发, 受益于 LivelyKernel 强大的 liveness, 开发过程高效而愉快。
+
+使用软链接将代码仓库放到 lively 中: `ln -s /Users/wwj718/Documents/mylab/dynalab/dynatalk_new/dynatalk-js /Users/wwj718/Documents/mylab/dynalab/lab/LivelyKernel/users/wwj/dynatalk-js`
 
 ### 消息结构
 
