@@ -2,6 +2,9 @@
 
 Dynatalk 致力于对象之间的交流, 尤其关心不同语言/环境之间的互操作。
 
+构建 Dynatalk 的原因: 我喜欢在 Squeak 进行探索性编程, 但 Squeak 第三方库不够丰富。 渴望一个简单的跨语言的对象协作机制, 在需要时, 就可以在 Squeak里使用 Python 或浏览器的 API。
+
+
 ## Supported languages
 
 Dynatalk 支持多种编程语言
