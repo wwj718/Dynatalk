@@ -1,8 +1,14 @@
 # readme
 
-```bash
-mosquitto -c mosquitto.conf
-```
+- 在本机安装 [Mosquitto](https://mosquitto.org/download/)
+- 启动 mosquitto(配置文件: mosquitto.conf)
+    
+        mosquitto -c mosquitto.conf
+
+- 启动消息观测器:
+
+        python monitor.py
+
 
 默认的配置信息为(应该修改为你自己的配置):
 
