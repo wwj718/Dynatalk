@@ -4,6 +4,11 @@ Dynatalk 致力于对象之间的交流, 尤其关心不同语言/环境之间�
 
 构建 Dynatalk 的原因: 我喜欢在 Squeak 进行探索性编程, 但 Squeak 第三方库不够丰富。 渴望一个简单的跨语言的对象协作机制, 在需要时, 就可以在 Squeak里使用 Python 或浏览器的 API。
 
+## Get started
+
+Dynatalk 使用 MQTT 来传递消息, 需要[运行一个 MQTT broker](./mqtt/readme.md).
+
+然后在以下语言的客户端中开始编程。
 
 ## Supported languages
 
@@ -30,3 +35,4 @@ Dynatalk 支持多种编程语言
 ### 设计理念
 
 参考 [设计理念](./docs/设计理念.md)
+
