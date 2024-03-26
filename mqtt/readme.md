@@ -7,7 +7,8 @@
 
 - 启动消息观测器:
 
-        python monitor.py
+        # pip install dynatalk
+        dynatalk-monitor
 
 
 默认的配置信息为(应该修改为你自己的配置):
