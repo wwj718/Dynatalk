@@ -21,8 +21,8 @@ listener 15675
 protocol websockets
 
 # 账户信息
-username: dynalab
-password: dynalab_rmq
+username: guest
+password: test
 ```
 
 ## 安全
@@ -34,5 +34,15 @@ password: dynalab_rmq
   - 监听特定 ip, 可能会[出问题](https://stackoverflow.com/questions/66285014/why-does-my-mosquitto-broker-fail-to-start-on-boot-but-works-when-started-manua)
 - 如果确实需要局域网的连接, 不要使用当前仓库默认 mqtt 密码
   - 可以使用自己的手机热点提高安全性
-- 限制 eval 的能力
+- Agent 解释消息时, 当心使用 eval.
 
+
+
+# FAQ
+
+## 生成 MQTT 账号密码
+
+```bash
+# 添加 用户名: guest  密码:test 
+mosquitto_passwd -b mosquitto_passwordfile guest test
+```
