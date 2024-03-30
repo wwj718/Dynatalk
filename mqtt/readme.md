@@ -42,3 +42,9 @@ password: test
 
 - MQTT_USERNAME
 - MQTT_PASSWORD
+
+## 使用 mosquitto 作为 MQTT broker
+
+下载 [mosquitto](https://mosquitto.org/download/)
+
+`mosquitto -c mosquitto.conf`
