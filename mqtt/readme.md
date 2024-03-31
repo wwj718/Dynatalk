@@ -45,6 +45,7 @@ password: test
 
 ## 使用 mosquitto 作为 MQTT broker
 
-下载 [mosquitto](https://mosquitto.org/download/)
+1. 下载 [mosquitto](https://mosquitto.org/download/)
+2. 下载当前仓库, 进入 mqtt 目录中运行:
 
 `mosquitto -c mosquitto.conf`
