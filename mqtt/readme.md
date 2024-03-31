@@ -1,30 +1,12 @@
 # readme
 
-- 确保本地安装了 Python(版本不低于 3.8)
-- 安装 dynatalk
+dynatalk 支持常见的 MQTT broker(mosquitto(参考页底的 FAQ), [emqx](https://www.emqx.com/zh) 等)。
 
-        python -m pip install dynatalk
+最简单的方式是下载并运行 DynatalkHub(内置了一个 MQTT broker):
 
-- 启动 dynatalk 内置的 MQTT broker:
-    
-        dynatalk-hub
-
-- 启动消息观测器(可选):
-
-        dynatalk-monitor
-
-
-默认的配置信息为:
-
-```
-tcp port: 1883
-
-websockets port: 15675
-
-# 账户信息
-username: guest
-password: test
-```
+-   [MacOS](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-mac.zip)
+-   [Windows](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-win.zip)
+-   [Linux](https://github.com/wwj718/Dynatalk/tree/main/mqtt)
 
 ## 安全
 
@@ -36,7 +18,28 @@ password: test
 
 # FAQ
 
-## 如何修改账号信息
+##  DynatalkHub 的 MQTT broker 配置信息
+
+```
+tcp port: 1883
+
+websockets port: 15675
+
+# 账户信息
+username: guest
+password: test
+```
+
+## 在 Python 中运行 DynatalkHub
+
+- 确保本地安装了 Python(版本不低于 3.8)
+- 安装 dynatalk
+
+        python -m pip install dynatalk
+
+- 启动 dynatalk 内置的 MQTT broker:
+    
+        dynatalk-hub
 
 通过环境变量修改 broker 账户信息：
 
@@ -49,3 +52,14 @@ password: test
 2. 下载当前仓库, 进入 mqtt 目录中运行:
 
 `mosquitto -c mosquitto.conf`
+
+## 启动消息观察器
+
+- 确保本地安装了 Python(版本不低于 3.8)
+- 安装 dynatalk
+
+        python -m pip install dynatalk
+
+- 启动消息观测器(可选):
+
+        dynatalk-monitor
