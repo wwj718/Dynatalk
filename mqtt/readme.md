@@ -70,7 +70,7 @@ tls port 8883
 websockets port: 8084
 ```
 
-- [MicroBlocks demo](https://codelabclub.github.io/Snap/snap.html#open:https://wwj718.github.io/post/img/dynatalk-emqx-20240331.ubp)
+- [MicroBlocks demo](https://microblocksfun.cn/run/microblocks.html?#project=https://wwj718.github.io/post/img/dynatalk-emqx-20240331.ubp)
 - [Snap! demo](https://codelabclub.github.io/Snap/snap.html#open:https://wwj718.github.io/post/img/dynatalk-emqx-20240331.xml)
 
 
