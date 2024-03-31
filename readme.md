@@ -34,11 +34,12 @@ Dynatalk 支持多种编程语言
 
 参考 [设计理念](./docs/设计理念.md)
 
-
+<!--
 ## roadmap
 
 - interpret 的进程机制
-    -   supervisor 与 agent 直接使用消息队列，降低耦合
+    -   supervisor 与 agent 之间使用队列传递消息
 - 更多 space
     -   内部通信
 - DynatalkHub
+-->
