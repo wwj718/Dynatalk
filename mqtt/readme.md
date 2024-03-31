@@ -2,23 +2,15 @@
 
 dynatalk 支持常见的 MQTT broker(mosquitto(参考页底的 FAQ), [emqx](https://www.emqx.com/zh) 等)。
 
-最简单的方式是下载并运行 DynatalkHub(内置了一个 MQTT broker):
+最简单的方式是下载并运行 DynatalkHub (内置了一个 MQTT broker):
 
 -   [MacOS](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-mac.zip)
 -   [Windows](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-win.zip)
 -   [Linux](https://github.com/wwj718/Dynatalk/tree/main/mqtt)
 
-## 安全
-
-- 不允许匿名连接
-  - 目前的默认配置
-- 如果确实需要来自局域网的连接, 请修改默认 mqtt 密码
-  - 可以使用自己的手机热点提高安全性
-- Agent 解释消息时, 当心使用 eval.
-
 # FAQ
 
-##  DynatalkHub 的 MQTT broker 配置信息
+##  DynatalkHub 的 MQTT broker 默认配置
 
 ```
 tcp port: 1883
@@ -63,3 +55,11 @@ password: test
 - 启动消息观测器(可选):
 
         dynatalk-monitor
+
+## 关于安全性
+
+- 不允许匿名连接
+  - 目前的默认配置
+- 如果确实需要来自局域网的连接, 请修改默认 mqtt 密码
+  - 可以使用自己的手机热点提高安全性
+- Agent 解释消息时, 当心使用 eval.
