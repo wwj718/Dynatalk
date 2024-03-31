@@ -56,6 +56,24 @@ password: test
 
         dynatalk-monitor
 
+## 使用 emqx broker
+
+使用公网 broker 的好处是, 用户无需本地安装。
+
+以下是一个位于公网上的 [emqx](https://www.emqx.com/zh) broker。
+
+```
+url: mqtt.aimaker.space
+默认用户名/密码: guest/test
+tcp port: 1883
+tls port 8883
+websockets port: 8084
+```
+
+- [MicroBlocks demo](https://codelabclub.github.io/Snap/snap.html#open:https://wwj718.github.io/post/img/dynatalk-emqx-20240331.ubp)
+- [Snap! demo](https://codelabclub.github.io/Snap/snap.html#open:https://wwj718.github.io/post/img/dynatalk-emqx-20240331.xml)
+
+
 ## 关于安全性
 
 - 不允许匿名连接
@@ -63,3 +81,7 @@ password: test
 - 如果确实需要来自局域网的连接, 请修改默认 mqtt 密码
   - 可以使用自己的手机热点提高安全性
 - Agent 解释消息时, 当心使用 eval.
+
+## 视频介绍
+
+[在线视频](https://www.bilibili.com/video/BV1Fr42187ip/)
