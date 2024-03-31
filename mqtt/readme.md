@@ -1,12 +1,12 @@
 # readme
 
-dynatalk 支持常见的 MQTT broker(mosquitto(参考页底的 FAQ), [emqx](https://www.emqx.com/zh) 等)。
+dynatalk 支持常见的 MQTT broker(mosquitto(参考页面底下的 FAQ), [emqx](https://www.emqx.com/zh) 等)。
 
 最简单的方式是下载并运行 DynatalkHub (内置了一个 MQTT broker):
 
 -   [MacOS](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-mac.zip)
 -   [Windows](https://scratch3-files.just4fun.site/DynatalkHub-0.2.0-win.zip)
--   [Linux](https://github.com/wwj718/Dynatalk/tree/main/mqtt)
+-   Linux 可在 Python 中运行 DynatalkHub (参考页面底下的 FAQ)
 
 # FAQ
 
