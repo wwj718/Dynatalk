@@ -72,7 +72,7 @@ websockets port: 8084
 
 - [MicroBlocks demo](https://microblocksfun.cn/run/microblocks.html?#project=https://wwj718.github.io/post/img/dynatalk-emqx-20240331.ubp)
 - [Snap! demo](https://codelabclub.github.io/Snap/snap.html#open:https://wwj718.github.io/post/img/dynatalk-emqx-20240331.xml)
-
+- [Python demo](https://github.com/wwj718/dynatalk-py/blob/main/Workspace-emqx.ipynb)
 
 ## 关于安全性
 
