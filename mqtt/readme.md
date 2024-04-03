@@ -67,7 +67,8 @@ url: mqtt.aimaker.space
 默认用户名/密码: guest/test
 tcp port: 1883
 tls port 8883
-websockets port: 8084
+websockets port: 8083
+Secure websockets port: 8084
 ```
 
 - [MicroBlocks demo](https://microblocksfun.cn/run/microblocks.html?#project=https://wwj718.github.io/post/img/dynatalk-emqx-20240331.ubp)
