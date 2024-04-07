@@ -30,6 +30,8 @@ Dynatalk 支持多种编程语言
 
 和 [SqueakJS](https://github.com/codefrau/SqueakJS)类似, 最初的 Dynatalk 以探索性编程的风格在 [LivelyKernel](https://github.com/LivelyKernel/LivelyKernel) 中开发, 受益于 LivelyKernel 强大的 liveness, 开发过程高效而愉快。
 
+最近的几个版本在 [Squeak](https://squeak.org/) 中开发, 借助其强大的 debugger, 可以将手伸到运行堆栈的每个角落里。在 Smalltalk 中，测试驱动风格的开发充满了乐趣。
+
 ### 消息结构
 
 参考 [消息结构](./docs/消息结构.md)
