@@ -20,7 +20,9 @@ Dynatalk 支持多种编程语言
 - [dynatalk-MicroBlocks](https://github.com/wwj718/dynatalk-MicroBlocks)
 - [dynatalk-snap](https://github.com/wwj718/dynatalk-snap)
 - dynatalk-unity
+    -   之前的实现: [Unity 学习笔记之消息传递](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/learn-unity-message-passing/)
 - dynatalk-roblox
+    -   之前的实现: [增强 Roblox Studio 的互操作性](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/enhanced-roblox-studio-interoperability/)
 
 ## 开发笔记
 
